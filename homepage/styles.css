@@ -1,0 +1,23 @@
+.rectangle {
+  margin: auto;
+  height: 400px;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  background-color: #f1f3f2;
+}
+
+.employer-company {
+  font-family: "Quicksand", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.job-title {
+  font-size: 1.1rem;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}

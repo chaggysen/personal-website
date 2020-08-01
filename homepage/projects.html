@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <title>Sen Wang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+    integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      padding: 20px;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+    }
+    .header {
+      text-align: center;
+    }
+    .profile {
+      width: 150px;
+    }
+    .profile-name {
+      margin-top: 5px;
+      font-size: 36px;
+    }
+    .content {
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    a {
+      color: #258cdb;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #2571db;
+    }
+    h1 {
+      font-size: 28px;
+    }
+
+    .ytp-chrome-top {
+      display: none !important;
+    }
+
+    .embed {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .embed iframe,
+    .embed object,
+    .embed embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-123778931-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-123778931-1");
+  </script>
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="header">
+          <h1 class="profile-name">Sen Wang</h1>
+          <img class="profile" src="./profile.jpg" />
+          <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+            <ul class="pure-menu-list">
+              <li class="pure-menu-item">
+                <a href="./index.html" class="pure-menu-link">Home</a>
+              </li>
+              <li class="pure-menu-item">
+                <a href="./experiences.html" class="pure-menu-link"
+                  >Experiences</a
+                >
+              </li>
+              <li class="pure-menu-item">
+                <a href="./projects.html" class="pure-menu-link">Projects</a>
+              </li>
+
+              <li class="pure-menu-item">
+                <a href="./courses.html" class="pure-menu-link">Courses</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="content">
+          <h1 id="projects">Personal and Academic Projects</h1>
+
+          <ul>
+            <li>
+              <a href="https://chaggy-resort.netlify.app/"
+                >Hotel Reservatioon Website</a
+              >
+              is a website that simulates a hotel/resort reservation website in
+              the real world The technologies used are: HTML, CSS, JavaScript,
+              React, Netlify.
+            </li>
+            <li>
+              <a href="https://covid19-tracker-chaggy.netlify.app/"
+                >Covid-19 Tracker</a
+              >
+              is a website that tracks the number of confirmed, recovered and
+              death cases dued to Covid-10 pandemic around the world. The datas
+              are being fetched by a free online API that updates the numbers
+              daily. The technologies used are: HTML, CSS, JavaScript, React,
+              Netlify
+            </li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Kingdomino"
+                >Kindomino Board Game Project</a
+              >
+              is software implementation of board game Kindomino. In this 15-20
+              minute, family-oriented game, players build a five by five kingdom
+              of oversized domino-like tiles, making sure as they place each
+              tile that one of its sides connects to a matching terrain type
+              already in play. In this project, multiple software engineering
+              best practices are being implemented, such as the creation of a
+              domain model that shows all the attributes, concepts and
+              relationships in a UML class diagram. and designed a fully
+              functional state machine diagram using Yakindu state chart
+              simulation software, unit testing by developing controller methods
+              and mapping of Gherkin (Cucumber) scenarios and ensure that all
+              Gherkin scenarios initiated by Cucumber passed successfully as
+              acceptance tests and the implementation of MVC design
+              architecture. The technologies used are : Java, JUnit, Java Swing,
+              Java 2D, Cucumber, Umple, Yakindu State Chart.
+            </li>
+          </ul>
+
+          <p>
+            See more of my projects on
+            <a href="https://github.com/chaggysen">GitHub</a>.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

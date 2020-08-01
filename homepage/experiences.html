@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <title>Sen Wang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+    integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      padding: 20px;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+    }
+    .header {
+      text-align: center;
+    }
+    .profile {
+      width: 150px;
+    }
+    .profile-name {
+      margin-top: 5px;
+      font-size: 36px;
+    }
+    .content {
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    a {
+      color: #258cdb;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #2571db;
+    }
+    h1 {
+      font-size: 28px;
+    }
+
+    .ytp-chrome-top {
+      display: none !important;
+    }
+
+    .embed {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .embed iframe,
+    .embed object,
+    .embed embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-123778931-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-123778931-1");
+  </script>
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="header">
+          <h1 class="profile-name">Sen Wang</h1>
+          <img class="profile" src="./profile.jpg" />
+          <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+            <ul class="pure-menu-list">
+              <li class="pure-menu-item">
+                <a href="./index.html" class="pure-menu-link">Home</a>
+              </li>
+              <li class="pure-menu-item">
+                <a href="./experiences.html" class="pure-menu-link"
+                  >Experiences</a
+                >
+              </li>
+              <li class="pure-menu-item">
+                <a href="./projects.html" class="pure-menu-link">Projects</a>
+              </li>
+
+              <li class="pure-menu-item">
+                <a href="./courses.html" class="pure-menu-link">Courses</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="content">
+          <h1 id="courses-ive-taught">Courses I’ve Taken</h1>
+
+          <table class="pure-table pure-table-bordered">
+            <thead>
+              <tr>
+                <th>Date/Location</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Company/Organization</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Summer 2020 Montreal, Canada</td>
+                <td>
+                  Software Developer Intern
+                </td>
+                <td>
+                  - Work with other departments, stakeholders, and customers on
+                  software development, improvements, internal tools and
+                  implementation issue.
+                  <br />
+                  - Collaborating and co-developing with Web Application UI/UX
+                  designers.
+                  <br />
+                  - Improved problem solving, debugging skills and OOP
+                  principals by working on their large code base, fixing its
+                  bugs, and improving their exception handling for future
+                  debugging.
+                  <br />
+                  - Practiced CI/CD and worked on time-sensitive updates,
+                  including content changes and database upgrades.
+                  <br />
+                  - Implementation of Recommendation Engine using machine
+                  learning algorithms
+                  <br />
+                  - Skills and technologies used: HTML, CSS, JavaScript, React,
+                  NodeJs, Python, postgreSQL, AWS, Agile Methotolody
+                </td>
+                <td>
+                  <a href="https://www.crowddoing.world/"
+                    >M4A Foundation - CrowdDoing</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
